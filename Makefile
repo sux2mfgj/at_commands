@@ -10,8 +10,8 @@ $(EXEC): $(OBJS)
 	$(CC) -o $@ $^
 
 .PHONY: run
-run:
-	./$(EXEC)
+run: $(EXEC)
+	./$^
 
 .PHONY: clean
 clean:
