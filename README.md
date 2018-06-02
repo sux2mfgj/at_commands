@@ -17,5 +17,9 @@ it's me.
 $ make run
 ```
 
-##### Docs
-ARDrone Developper's Guide in [SDK2](http://developer.parrot.com/products.html)by Parrot.
+### Docs
+ARDrone Developper's Guide in [SDK2](http://developer.parrot.com/products.html) by Parrot.
+
+### Note
+- スムーズに動かすには, 30ms毎にAR-commandsを送ると良い
+- Wifiの接続が切れないようにするためにはおそくと, も2秒毎にAT-commandsを送らなければならない
