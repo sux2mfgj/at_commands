@@ -23,3 +23,6 @@ ARDrone Developper's Guide in [SDK2](http://developer.parrot.com/products.html) 
 ### Note
 - スムーズに動かすには, 30ms毎にAR-commandsを送ると良い
 - Wifiの接続が切れないようにするためにはおそくと, も2秒毎にAT-commandsを送らなければならない
+
+### License
+[MIT](./LICENSE)
